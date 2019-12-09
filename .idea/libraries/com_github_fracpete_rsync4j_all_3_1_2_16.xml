@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="com.github.fracpete:rsync4j-all:3.1.2-16" type="repository">
+    <properties maven-id="com.github.fracpete:rsync4j-all:3.1.2-16" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fracpete/rsync4j-all/3.1.2-16/rsync4j-all-3.1.2-16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fracpete/rsync4j-core/3.1.2-16/rsync4j-core-3.1.2-16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.1/commons-io-2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/argparse4j/argparse4j/0.6.0/argparse4j-0.6.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fracpete/processoutput4j/0.0.7/processoutput4j-0.0.7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fracpete/rsync4j-windows-x86/3.1.2-16/rsync4j-windows-x86-3.1.2-16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/github/fracpete/rsync4j-windows-x86_64/3.1.2-16/rsync4j-windows-x86_64-3.1.2-16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
