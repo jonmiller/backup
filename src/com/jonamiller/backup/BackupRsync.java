@@ -57,8 +57,10 @@ public class BackupRsync {
     }
 
     Path homeDir = Paths.get(HOME_DIR);
-    Path homeDirBackupFolder =
-        Files.createDirectory(backupFolder.resolve(HOME_DIR_BACKUP_FOLDER_NAME));
+    Path homeDirBackupFolder = backupFolder.resolve(HOME_DIR_BACKUP_FOLDER_NAME);
+    if (!Files.exists(homeDirBackupFolder)) {
+      Files.createDirectory(homeDirBackupFolder);
+    }
 
     RSync rsync = new RSync()
         .archive(true)
@@ -69,8 +71,10 @@ public class BackupRsync {
     output.monitor(rsync.builder());
 
     Path secondDrive = Paths.get(SECOND_DRIVE);
-    Path secondDriveBackupFolder =
-        Files.createDirectory(backupFolder.resolve(SECOND_DRIVE_BACKUP_FOLDER_NAME));
+    Path secondDriveBackupFolder = backupFolder.resolve(SECOND_DRIVE_BACKUP_FOLDER_NAME);
+    if (!Files.exists(secondDriveBackupFolder)) {
+      Files.createDirectory(secondDriveBackupFolder);
+    }
 
     RSync secondRsync = new RSync()
         .archive(true)
